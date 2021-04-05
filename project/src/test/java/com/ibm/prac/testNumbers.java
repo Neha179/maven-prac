@@ -31,6 +31,8 @@ public class testNumbers {
 		assertEquals(3, numbers.div(9, 3));
 	}
 	
+	
+	
 	@Test
 	public void testZeroDiv() {
 		assertThrows(ArithmeticException.class, () -> numbers.div(2,0));
